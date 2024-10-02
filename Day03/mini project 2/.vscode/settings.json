@@ -55,15 +55,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-<<<<<<< HEAD
   "C_Cpp_Runner.msvcSecureNoWarnings": false
-=======
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "files.associations": {
-    "stdlib.h": "c",
-    "string.h": "c",
-    "stdio.h": "c",
-    "math.h": "c"
-  }
->>>>>>> 08980aaad6f73ab864c4bdedb57f070e6194db7b
 }

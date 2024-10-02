@@ -2,14 +2,72 @@
   "version": "0.2.0",
   "configurations": [
     {
+<<<<<<< HEAD
+=======
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+>>>>>>> 08980aaad6f73ab864c4bdedb57f070e6194db7b
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
       "cwd": "c:/Users/isam/Desktop/SAS 1 Finale projet",
       "program": "c:/Users/isam/Desktop/SAS 1 Finale projet/build/Debug/outDebug",
+=======
+      "cwd": "c:/Users/isam/Desktop/complete sas/workshop-c-language/Day03/String/challenge (6)",
+      "program": "c:/Users/isam/Desktop/complete sas/workshop-c-language/Day03/String/challenge (6)/build/Debug/outDebug",
+>>>>>>> 08980aaad6f73ab864c4bdedb57f070e6194db7b
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
